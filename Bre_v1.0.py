@@ -48,7 +48,7 @@ if __name__ == "__main__":
 	while True:
 		command = input("请输入需要执行的Linux命令(q/Q:退出)：")
 		#print(len(hostname))
-		if command == 'q' or 'Q':
+		if command == 'q' or command == 'Q':
 			print("Bye~")
 			break
 		for i in range(len(hostname)):
